@@ -47,11 +47,18 @@ To run this project, you need an API key from Groq:
 3. Add the key to your `.env` file.
 
 ## Local Run Instructions
-Start the development server using the ADK CLI:
-```bash
-uv run adk web . --host 127.0.0.1 --port 8001
+
+**Option 1 — Use the included batch script (recommended on Windows):**
+```bat
+.\run_customer.bat
 ```
-Then, open your browser and navigate to the printed Dev UI URL (e.g. `http://127.0.0.1:8001/dev-ui`).
+
+**Option 2 — Run manually from the terminal:**
+```bash
+uv run python -m google.adk.cli web . --host 127.0.0.1 --port 8001
+```
+
+Then open your browser and go to: **http://127.0.0.1:8001/dev-ui**
 
 ## Usage Examples
 In the ADK Dev UI chat, you can ask:
