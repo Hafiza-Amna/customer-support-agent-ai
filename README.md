@@ -1,3 +1,12 @@
+---
+title: Customer Support Agent AI
+emoji: 💬
+colorFrom: pink
+colorTo: purple
+sdk: docker
+pinned: false
+---
+
 # Customer Support Agent AI
 
 ## Project Overview
